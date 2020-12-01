@@ -1,6 +1,6 @@
-#BEROEPS OPDRACHT
+# BEROEPS OPDRACHT
 
-##Museum opdracht
+## Museum opdracht
 ---
 *Made by:*
 Amber Zijp

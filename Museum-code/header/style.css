@@ -10,7 +10,7 @@ background: #0A8B99;
 
 
 .Navigator{
-    width: 600px;
+    width: 500px;
     height: 50px;
     background-color: red;
     margin: 0 auto;
@@ -28,18 +28,43 @@ background: #0A8B99;
     align-items: center;
 }
 
-.Navigator-Home {
-    left: 50px;
-    position: absolute;
+nav ul{
+    margin: 0;
+    padding: 10px;
+    list-style-type: none;
+    display: flex;
+}
+
+nav li{
+    flex: 1 0 auto;
+}
+
+nav li + li{
+    border-left: solid 2px wheat;
+}
+
+nav a{
+    color: wheat;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    text-align: center
+}
+
+nav a:hover{
+    background-color: black;
+    color: white;
 }
 
 
 /* LAM logo in navigator */
 .Navigator-LAM-Logo{
-    height: 44px;
-    width: 100px;
+    height: 40px;
+    width: auto;
     right: 5px;
     position: absolute;
+    margin: 0;
+    padding: 0;
 }
 
 /* Navigator end */

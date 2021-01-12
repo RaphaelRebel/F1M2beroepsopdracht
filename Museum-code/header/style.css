@@ -1,23 +1,28 @@
-body{ 
+body{
 margin: 0;
 padding: 0;
 height: 1000vh;
 background: #0A8B99;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* Navigator start */
 
 
 
-.Navigator{
+#Navigator{
     width: 500px;
     height: 50px;
-    background-color: red;
+    background-color: #36226d;
     margin: 0 auto;
     padding: 0 auto;
     position: fixed;
     display: flex;
-    
+    top: 5px;
+
 }
 
 /* Navigator home button */
@@ -30,7 +35,7 @@ background: #0A8B99;
 
 nav ul{
     margin: 0;
-    padding: 10px;
+    padding: 5px;
     list-style-type: none;
     display: flex;
 }
@@ -40,15 +45,16 @@ nav li{
 }
 
 nav li + li{
-    border-left: solid 2px wheat;
+    border-left: solid 2px black;
 }
 
+
+
 nav a{
-    color: wheat;
+    color: black;
     text-decoration: none;
     display: block;
     padding: 10px;
-    text-align: center
 }
 
 nav a:hover{
@@ -61,7 +67,8 @@ nav a:hover{
 .Navigator-LAM-Logo{
     height: 40px;
     width: auto;
-    right: 5px;
+    right: 10px;
+    bottom: 5px;
     position: absolute;
     margin: 0;
     padding: 0;
@@ -129,19 +136,35 @@ margin-right: 40px;
     background: #E1668B;
 }
 
-#radio1:checked ~ .first{ 
+#radio1:checked ~ .first{
     margin-left: 0;
 }
 
-#radio2:checked ~ .first{ 
+#radio2:checked ~ .first{
     margin-left: -20%;
 }
 
-#radio3:checked ~ .first{ 
+#radio3:checked ~ .first{
     margin-left: -40%;
 }
 
-#radio4:checked ~ .first{ 
+#radio4:checked ~ .first{
     margin-left: -60%;
 }
 /* Image slider end */
+
+/* Tickets start */
+#Tickets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Tickets end */
+
+/* Quiz start */
+#Quiz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Quiz end */

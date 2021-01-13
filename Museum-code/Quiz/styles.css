@@ -1,0 +1,47 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: lightblue;
+    
+}
+
+#quizWrapper{
+    background-color: lightcyan;
+}
+/* header start */
+
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 11;
+    margin: 250px;
+    color: #36226d;
+    font-size: 180%;
+}
+
+
+
+#button-home button{
+    width: 500px;
+    height: 100px;
+    transform: skew(-20deg);
+    margin: 200px;
+    text-decoration: none;
+    background-color: #36226d;
+    border: none;
+}
+
+#button-home button h1{
+    transform: skew(20deg);
+    color: white;
+}
+
+
+a:link{
+    text-decoration: none;
+}
+
+/* header end */

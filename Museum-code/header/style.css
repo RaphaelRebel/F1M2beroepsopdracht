@@ -2,7 +2,7 @@ body{
 margin: 0;
 padding: 0;
 height: 1000vh;
-background: #0A8B99;
+background: white;
 }
 
 html{
@@ -21,7 +21,8 @@ html{
     padding: 0 auto;
     position: fixed;
     display: flex;
-    top: 5px;
+    top: 0px;
+    left: 0;
     
 }
 
@@ -45,13 +46,13 @@ nav li{
 }
 
 nav li + li{
-    border-left: solid 2px black;
+    border-left: solid 2px white;
 }
 
 
 
 nav a{
-    color: black;
+    color: white;
     text-decoration: none;
     display: block;
     padding: 10px;
@@ -72,6 +73,7 @@ nav a:hover{
     position: absolute;
     margin: 0;
     padding: 0;
+    
 }
 
 /* Navigator end */
@@ -158,13 +160,41 @@ margin-right: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #36226D;
+    width: 40%;
+    height: 150px;
+    flex-direction: column;
+    color: white;
+    margin: 8px;
 }
+
+#Tickets, div{
+justify-content: start;
+padding: 8px;
+}
+
+
+
+
+
 /* Tickets end */
 
 /* Quiz start */
+
 #Quiz{
+    
+    
     display: flex;
-    justify-content: center;
     align-items: center;
+    position: absolute;
+    background-color: #36226D;
+    flex-direction: column;
+    color: white;
+    width: 40%;
+    height: 150px;
+    margin: 8px;
+    right: 8px;
 }
+
+
 /* Quiz end */

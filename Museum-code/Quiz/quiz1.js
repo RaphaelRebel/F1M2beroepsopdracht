@@ -56,10 +56,7 @@ const quiz1 =
 						"answer": "Amersfoort",
 						"feedback": false
 					},
-					{
-						"answer": "Kippensoep",
-						"feedback": false
-					}
+					
 				]
 			}
 		]

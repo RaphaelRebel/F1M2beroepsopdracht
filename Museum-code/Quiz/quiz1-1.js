@@ -48,23 +48,20 @@ const quiz1 =
 				]
 			},
 			{
-				"question": "Wat is jouw lievelings eten in de kantine",
+				"question": "Waar ligt het LAM museum?",
 				"answers": [{
-						"answer": "frikandel broodje",
+						"answer": "Lisse",
 						"feedback": true
 					},
 					{
-						"answer": "Chips",
-						"feedback": true
+						"answer": "Sassenheim",
+						"feedback": false
 					},
 					{
-						"answer": "Broodje gehakt",
-						"feedback": true
+						"answer": "Amersfoort",
+						"feedback": false
 					},
-					{
-						"answer": "Kippensoep",
-						"feedback": true
-					}
+					
 				]
 			}
 		]

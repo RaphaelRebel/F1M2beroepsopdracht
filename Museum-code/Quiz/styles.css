@@ -20,7 +20,7 @@ body{
 #quizWrapper h1{
     transform: skew(20deg);
     margin: 0;
-    padding: 0;
+    padding: 30px;
     color: white;
 }
 #quizWrapper ul{
@@ -36,6 +36,7 @@ body{
 #quizWrapper h2{
     transform: skew(20deg);
     color: white;
+    padding: auto;
 }
 
 .myAnswer{
@@ -50,8 +51,15 @@ body{
     width: 90px;
     margin-left: 10px;
     padding: 10px;
+    margin: 40px;
 }
 
+
+
+#resultBox{
+    border: 1px black solid;
+    padding: 8px;
+}
 
 
 /* header start */

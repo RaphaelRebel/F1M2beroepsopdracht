@@ -23,7 +23,8 @@ html{
     display: flex;
     top: 0px;
     left: 0;
-    
+    transform: skew(-20deg);
+   
 }
 
 /* Navigator home button */
@@ -32,13 +33,15 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: skew(20deg);
 }
 
 nav ul{
     margin: 0;
-    padding: 5px;
+    margin-left: 20px;
     list-style-type: none;
     display: flex;
+    transform: skew(20deg);
 }
 
 nav li{
@@ -68,11 +71,11 @@ nav a:hover{
 .Navigator-LAM-Logo{
     height: 40px;
     width: auto;
-    right: 10px;
+    left: 350px;
     bottom: 5px;
     position: absolute;
     margin: 0;
-    padding: 0;
+   
     
 }
 
@@ -203,6 +206,16 @@ background: #E1668B;
     flex-direction: column;
     color: white;
     margin: 8px;
+    transform: skew(-20deg);
+    z-index: 1;
+}
+
+#Tickets h1{
+    transform: skew(20deg);
+}
+
+#Tickets p{
+    transform: skew(20deg);
 }
 
 #Tickets, div{
@@ -231,6 +244,16 @@ padding: 8px;
     height: 150px;
     margin: 8px;
     right: 8px;
+    transform: skew(-20deg);
+}
+
+
+#Quiz h1{
+    transform: skew(20deg);
+}
+
+#Quiz p{
+    transform: skew(20deg);
 }
 
 

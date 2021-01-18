@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+    font-family: Roboto;
 }
 
 body{
@@ -8,8 +9,51 @@ body{
 }
 
 #quizWrapper{
-    background-color: lightcyan;
+    background-color: #36226d;
+    width: 70%;
+    transform: skew(-20deg);
+    padding-left: 80px;
+    height: auto ;
+    position: relative;
+    right: 6%;
 }
+#quizWrapper h1{
+    transform: skew(20deg);
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+#quizWrapper ul{
+    transform: skew(20deg);
+    display: flex;
+    color: white;
+}
+
+#quizwrapper li{
+    margin-left: 10px;
+}
+
+#quizWrapper h2{
+    transform: skew(20deg);
+    color: white;
+}
+
+.myAnswer{
+    padding: 20px;
+    list-style-type: none;
+    
+}
+
+.answer{
+    
+    border: 3px white solid;
+    width: 90px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+
+
 /* header start */
 
 .header{

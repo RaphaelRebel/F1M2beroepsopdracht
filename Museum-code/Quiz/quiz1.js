@@ -10,66 +10,55 @@ const quiz1 =
     "quizContent":		
 		[
 			{
-				"question": "Wat is de locatie van Media College MBO",
+				"question": "Wat voor museum is het LAM?",
 				"answers": [{
-						"answer": "Amsterdam",
+						"answer": "Geschiedenis",
+						"feedback": false
+					},
+					{
+						"answer": "Foodart",
 						"feedback": true
 					},
 					{
-						"answer": "Rotterdam",
+						"answer": "Natuur",
+						"feedback": false
+					},
+				]
+			},
+			
+			{
+				"question": "Welk kunstwerk bevind zich in het LAM museum?",
+				"answers": [{
+						"answer": "De nachtwacht",
 						"feedback": false
 					},
 					{
-						"answer": "Utrecht",
-						"feedback": false
+						"answer": "De bad grapes",
+						"feedback": true
 					},
 					{
-						"answer": "Haarlem",
+						"answer": "de slag bij waterloo",
 						"feedback": false
 					},
-					{
-						"answer": "Groningen",
-						"feedback": false
-					}
 				]
 			},
 			{
-				"question": "Welke nieuwe opleidingen zijn er dit jaar bij gekomen? Er zijn 2 goede antwoorden.",
+				"question": "Waar ligt het LAM museum?",
 				"answers": [{
-						"answer": "Mediavormgeving",
+						"answer": "Lisse",
+						"feedback": true
+					},
+					{
+						"answer": "Sassenheim",
 						"feedback": false
 					},
 					{
-						"answer": "Fotografie",
-						"feedback": true
-					},
-					{
-						"answer": "Audio visueel",
+						"answer": "Amersfoort",
 						"feedback": false
-					},
-					{
-						"answer": "Software development",
-						"feedback": true
-					}
-				]
-			},
-			{
-				"question": "Wat is jouw lievelings eten in de kantine",
-				"answers": [{
-						"answer": "frikandel broodje",
-						"feedback": true
-					},
-					{
-						"answer": "Chips",
-						"feedback": true
-					},
-					{
-						"answer": "Broodje gehakt",
-						"feedback": true
 					},
 					{
 						"answer": "Kippensoep",
-						"feedback": true
+						"feedback": false
 					}
 				]
 			}

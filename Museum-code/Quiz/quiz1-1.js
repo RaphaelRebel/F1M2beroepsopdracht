@@ -10,27 +10,21 @@ const quiz1 =
     "quizContent":		
 		[
 			{
-				"question": "Wat is de locatie van Media College MBO",
+				"question": "Wat voor museum is het LAM?",
 				"answers": [{
-						"answer": "Amsterdam",
+						"answer": "Geschiedenis",
+						"feedback": false
+					},
+					{
+						"answer": "Foodart",
 						"feedback": true
 					},
 					{
-						"answer": "Rotterdam",
+						"answer": "Natuur",
 						"feedback": false
 					},
-					{
-						"answer": "Utrecht",
-						"feedback": false
-					},
-					{
-						"answer": "Haarlem",
-						"feedback": false
-					},
-					{
-						"answer": "Groningen",
-						"feedback": false
-					}
+					
+					
 				]
 			},
 			{

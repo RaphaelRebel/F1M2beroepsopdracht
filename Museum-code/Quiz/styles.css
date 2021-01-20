@@ -97,3 +97,27 @@ a:link{
 }
 
 /* header end */
+
+/* footer start */
+#footerWhole{
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#footerWhole a{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+.footerparts{
+    flex: 1;
+}
+/* footer end */

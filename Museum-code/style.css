@@ -55,3 +55,14 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 }
+
+.reviews {
+    background-color: cyan;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container {
+    padding-top: 30px;
+}
